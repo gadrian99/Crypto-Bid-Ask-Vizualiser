@@ -1,0 +1,15 @@
+@import '~antd/dist/antd.css';
+@import 'antd/dist/antd.variable.min.css';
+
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.chart-container canvas {
+    min-width: 90vw;
+    max-width: 1800px;
+    max-height: 40rem;
+}
+
